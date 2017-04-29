@@ -17,3 +17,5 @@
 /system/bin/tinyplay                    u:object_r:tinyplay_exec:s0
 
 /sys/module/dhd/parameters(/.*)?		u:object_r:sysfs_macloader:s0
+
+/efs					u:object_r:efs_device_file:s0
